@@ -1,0 +1,22 @@
+#chatgpt 指导
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.swp
+
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
