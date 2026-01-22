@@ -9,16 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, Plant Management 🌱！")
-        }
-        .padding()
+        HomeView()
+//        VStack{
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundStyle(.tint)
+//            Text("Hello, Plant Management 🌱！")
+//        }
+//        .padding()
     }
+
 }
 
+
+
+// show whats on the right -> 预览
 #Preview {
     ContentView()
 }
+
+
+
